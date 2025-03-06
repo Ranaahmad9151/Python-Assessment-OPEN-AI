@@ -1,9 +1,8 @@
 import openai
-import os
 import time
 from flask import Flask, request, jsonify
 
-# Set OpenAI API Key (Do not hardcode API keys in production)
+# Set OpenAI API Key 
 openai.api_key = "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"  # Replace with actual API key
 
 class ChatGPTBotAPI:
